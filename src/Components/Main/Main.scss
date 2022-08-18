@@ -1,0 +1,24 @@
+main{
+  position: relative;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  div{
+    margin-top: 5px;
+    display: flex !important;
+    align-items: flex-start;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px !important;
+    overflow: auto;
+    height: 94.5vh;
+    padding: 45px;
+      div{
+        font-size: 35px;
+        border: 1px solid black !important;
+        width:500px !important;
+        height: 300px;
+      }
+  }
+}
